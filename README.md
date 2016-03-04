@@ -1,4 +1,4 @@
-# Dropwizard XML Bundle [![Travis build status](https://travis-ci.org/phaneesh/xml-bundle.svg?branch=master)](https://travis-ci.org/phaneesh/mxl-bundle)
+# Dropwizard XML Bundle [![Travis build status](https://travis-ci.org/phaneesh/xml-bundle.svg?branch=master)](https://travis-ci.org/phaneesh/xml-bundle)
 
 This bundle adds XML request/response support for dropwizard.
 This bundle compiles only on Java 8.
