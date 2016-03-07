@@ -36,7 +36,7 @@ Use the following maven dependency:
 </dependency>
 ```
 
-### Using MsgPack bundle
+### Using Xml bundle
 
 #### Bootstrap
 ```java

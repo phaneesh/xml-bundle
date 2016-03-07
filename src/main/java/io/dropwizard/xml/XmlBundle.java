@@ -22,7 +22,7 @@ import io.dropwizard.setup.Environment;
 /**
  * @author phaneesh
  */
-public class XmlPackBundle implements Bundle {
+public class XmlBundle implements Bundle {
 
     @Override
     public void initialize(Bootstrap<?> bootstrap) {
@@ -31,6 +31,6 @@ public class XmlPackBundle implements Bundle {
 
     @Override
     public void run(Environment environment) {
-        environment.jersey().register(new XmlPackMessageBodyProvider());
+        environment.jersey().register(new XmlMessageBodyProvider());
     }
 }

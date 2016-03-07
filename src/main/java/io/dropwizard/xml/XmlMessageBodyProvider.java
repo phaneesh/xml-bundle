@@ -42,11 +42,11 @@ import java.lang.reflect.Type;
 @Provider
 @Consumes(MediaType.APPLICATION_XML)
 @Produces(MediaType.APPLICATION_XML)
-public class XmlPackMessageBodyProvider<T> implements MessageBodyReader<T>, MessageBodyWriter<T> {
+public class XmlMessageBodyProvider<T> implements MessageBodyReader<T>, MessageBodyWriter<T> {
 
     public static final XmlMapper objectMapper = new XmlMapper();
 
-    public XmlPackMessageBodyProvider() {
+    public XmlMessageBodyProvider() {
         objectMapper.configure(SerializationFeature.INDENT_OUTPUT, true);
         objectMapper.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false);
         objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
