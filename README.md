@@ -4,7 +4,7 @@ This bundle adds XML request/response support for dropwizard.
 This bundle compiles only on Java 8.
  
 ## Dependencies
-* XML Jackson Data format 2.9.0  
+* XML Jackson Data format 2.9.6  
 
 ## Usage
 The bundle adds XML support based on content negotiation. This makes it easier to switch between legacy friendly and readable protocols. 
@@ -32,7 +32,7 @@ Use the following maven dependency:
 <dependency>
     <groupId>io.dropwizard</groupId>
     <artifactId>dropwizard-xml</artifactId>
-    <version>1.2.2-1</version>
+    <version>1.3.7-1</version>
 </dependency>
 ```
 
